@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# TheRunningDead
-=======
 
->>>>>>> commit1
+# TheRunningDead
+![]
