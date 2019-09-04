@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="Shortcut Icon" href="Assets/title.png">
+        <title>The Running DEAD</title>
+        <style type="text/css">
+            *{
+            margin: 0;
+            padding: 0;
+            }
+            </style>
+        <meta name="viewport" content="initial-scale=1 user-scalable=no" />
+        
+        <script type="text/javascript" src="phaser.min1.js"></script>
+        <script type="text/javascript" src="boot.js"></script>
+        <script type="text/javascript" src="load.js"></script>
+        <script type="text/javascript" src="menu.js"></script>
+        <script type="text/javascript" src="instruction.js"></script>
+        <script type="text/javascript" src="level.js"></script>
+        <script type="text/javascript" src="end.js"></script>
+        <script type="text/javascript" src="pass.js"></script>
+        <script type="text/javascript" src="single.js"></script>
+        <script type="text/javascript" src="end2.js"></script>
+        <script type="text/javascript" src="rank.js"></script>
+        <script type="text/javascript" src="p1win.js"></script>
+        <script type="text/javascript" src="p2win.js"></script>
+        <script type="text/javascript" src="select.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-storage.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
+        <script src="config.js"></script>
+
+        <script src="phaser-input.js"></script>
+       
+    </head>
+    <body background = "">  
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Creepster);
+            .hiddenText {
+            font-family: Creepster;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Bungee+Inline);
+            .hiddenText2 {
+            font-family: Bungee Inline;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText2"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Rye);
+            .hiddenText3 {
+            font-family: Rye;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText3"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Knewave);
+            .hiddenText4 {
+            font-family: Knewave;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText4"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Nosifer);
+            .hiddenText5 {
+            font-family: Nosifer;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText5"> . </div>
+
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Monofett);
+            .hiddenText6 {
+            font-family: Monofett;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText6"> . </div>
+
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+            .hiddenText7 {
+            font-family: Permanent Marker;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText7"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+            .hiddenText8 {
+            font-family: Luckiest Guy;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText8"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Viga);
+            .hiddenText9 {
+            font-family: Viga;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText9"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Marck+Script);
+            .hiddenText10 {
+            font-family: Marck Script;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText10"> . </div>
+        <style type="text/css">
+            @import url(http://fonts.googleapis.com/css?family=Cookie);
+            .hiddenText11 {
+            font-family: Cookie;
+            visibility: hidden;
+            height: 0;
+            }
+        </style>
+        <div class="hiddenText11"> . </div>
+
+        <div id="phaser-example" class="phaser-example" style="left:18%;position: fixed;"></div>
+    
+        
+        <script type="text/javascript" src="MainGame.js"></script>
+        <script type="text/javascript" src="game2.js"></script>
+        <script type="text/javascript" src="game3.js"></script>
+        <script type="text/javascript" src="game4.js"></script>
+        <script type="text/javascript" src="game5.js"></script>
+        <script type="text/javascript" src="game6.js"></script>
+        <script type="text/javascript" src="game7.js"></script>
+        <script type="text/javascript" src="game8.js"></script>
+        <script type="text/javascript" src="game9.js"></script>
+        <script type="text/javascript" src="game10.js"></script>
+        <script type="text/javascript" src="game11.js"></script>
+        <script type="text/javascript" src="game12.js"></script>
+        <script type="text/javascript" src="game13.js"></script>
+        <script type="text/javascript" src="game14.js"></script>
+        <script type="text/javascript" src="game15.js"></script>
+        <script type="text/javascript" src="game16.js"></script>
+        <script type="text/javascript" src="game17.js"></script>
+        <script type="text/javascript" src="death.js"></script>
+
+        <script type="text/javascript" src="game.js"></script> 
+
+        
+        <!--table width = 70%> <tr> <td> Player 1 <br /> Player 1 is African-American Guy <br /> Controls: WASD <br /> V to shoot <br /> C & B to Change Weapons </td> <td align = right> Player 2  <br /> Player 2 is White Guy <br /> Controls: Arrow Keys <br /> K to Shoot <br /> J & L to Change Weapons </td> </tr> </table-->
+            
+
+
+    </body>
+</html>
